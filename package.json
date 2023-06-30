@@ -1,0 +1,32 @@
+{
+  "name": "rainbowkit-create-react-app-v105-auth-wagmi-0126-no-viem",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@arcana/auth": "1.0.5",
+    "@arcana/auth-wagmi": "1.0.0",
+    "@rainbow-me/rainbowkit": "0.12.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "4.0.0",
+    "wagmi": "0.12.6"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
