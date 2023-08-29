@@ -1,5 +1,4 @@
 import { connectorsForWallets } from "@rainbow-me/rainbowkit";
-import { metaMaskWallet } from "@rainbow-me/rainbowkit/wallets";
 import { getAuthProvider } from "./getArcanaAuth";
 import { ArcanaConnector } from "@arcana/auth-wagmi";
 
@@ -29,7 +28,7 @@ const connectors = (chains) =>
   connectorsForWallets([
     {
       groupName: "Recommended",
-      wallets: [ArcanaRainbowConnector({ chains }), metaMaskWallet({ chains })]
+      wallets: [ArcanaRainbowConnector({ chains })]
     }
   ]);
 
