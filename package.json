@@ -1,10 +1,10 @@
 {
   "name": "rainbowkit-create-react-app",
   "version": "1.0.8",
-  "description": "Arcana Auth Integration Sample v1.0.8-beta.3",
+  "description": "Arcana Auth Integration Sample v1.0.8",
   "keywords": [],
   "dependencies": {
-    "@arcana/auth": "1.0.8-beta.3",
+    "@arcana/auth": "1.0.8",
     "@arcana/auth-wagmi": "2.0.0",
     "@rainbow-me/rainbowkit": "^1.0.8",
     "@rainbow-me/rainbowkit-siwe-next-auth": "^0.3.0",
